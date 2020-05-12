@@ -8,8 +8,8 @@ var w, h;
 
 function setup() {
   createCanvas(400, 400);
-  w = floor(width / resolution);
-  h = floor(height / resolution);
+  w = floor(width);
+  h = floor(height);
   snake = new Snake();
   foodLocation();
 }
